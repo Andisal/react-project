@@ -1,0 +1,27 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "just another react-project",
+  "main": "index.js",
+  "dependencies": {
+    "react-dom": "^15.5.4",
+    "react": "^15.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "руhello world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andisal/react-project.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Pavel Markin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andisal/react-project/issues"
+  },
+  "homepage": "https://github.com/Andisal/react-project#readme"
+}
