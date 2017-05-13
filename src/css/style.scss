@@ -1,65 +1,76 @@
-$primary-color: #c0c1bf;
+$primary-color: #24292e;
 $yellow-color: #c6b561;
 $orange-color: #db8c39;
 $white-color: #ffffff;
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: $primary-color;
+}
+.container {
+  width: 980px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.findarea {
-  max-width: 600px;
-  min-height: 200px;
-  border:  2px solid $primary-color;
-  box-shadow: $primary-color 2px 2px 2px ;
-  border-radius: 1%;
-  margin:20px auto;
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-size: 110% 110%;
+  -webkit-appearance: none;
+  padding: 6px 12px;
+  background-repeat: repeat-x;
+  background-position: -1px -1px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(27, 31, 35, 0.2);
+  border-image: initial;
+  border-radius: 0.25em;
+}
+
+.page-content {
   padding: 20px;
-  
-  p {
-    color: $yellow-color;
-    text-align: center;
-    text-transform: uppercase;
-    position: relative;
-    top: 70px;
-  }
-
-  button {
-    float: right;
-    margin-top: 180px;
-    background-color: $orange-color;
-    border: none;
-    border-radius: 10px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: $white-color;
-    outline: none;
-
-    a {
-      color: $white-color;
-      text-decoration: none;
-      padding: 30px;
-      font-size: 15px;
-      text-transform: uppercase;
-      line-height: 35px;
+  .columns {
+    margin-right: -10px;
+    margin-left: -10px;
+    .column {
+      float: left;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .two-thirds {
+      width: 66.6667%;
+      .newsfeed {
+        border: 2px dashed rgba(27,31,35,0.3);
+        border-radius: 5px;
+        padding: 32px;
+        h3 {
+          line-height: 1.5;
+          font-size: 22px;
+          font-weight: 600;
+        }
+        p {
+          font-size: 16px;
+        }
+        .btn-outline {
+          color: rgb(3, 102, 214);
+          background-color: rgb(255, 255, 255);
+          background-image: none;
+        }
+      }
     }
   }
 }
-.notearea {
-  max-width: 900px;
-  margin: 60px auto;
-  text-align: center;
 
-  .noteblock {
-    max-width: 230px;
-    display: inline-block;
-
-    h3 {
-      text-transform: uppercase;
-    }
-    
-    p {
-      text-align: left;
-    }
-  }
-}
