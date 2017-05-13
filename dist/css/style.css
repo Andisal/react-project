@@ -1,5 +1,63 @@
-h1 {
-  color: #664422;
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.findarea {
+  max-width: 600px;
+  min-height: 200px;
+  border: 2px solid #c0c1bf;
+  box-shadow: #c0c1bf 2px 2px 2px;
+  border-radius: 1%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.findarea p {
+  color: #c6b561;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  top: 70px;
+}
+
+.findarea button {
+  float: right;
+  margin-top: 180px;
+  background-color: #db8c39;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  outline: none;
+}
+
+.findarea button a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 35px;
+}
+
+.notearea {
+  max-width: 900px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.notearea .noteblock {
+  max-width: 230px;
+  display: inline-block;
+}
+
+.notearea .noteblock h3 {
+  text-transform: uppercase;
+}
+
+.notearea .noteblock p {
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
