@@ -1,0 +1,5 @@
+.idea/
+*.map
+*.json
+gulpfile.js
+node_modules
